@@ -1,0 +1,51 @@
+RewriteEngine on
+#AUTH
+RewriteRule ^login /include/login.php$1 [L]
+RewriteRule ^register /include/register.php$1 [L]
+RewriteRule ^logout /include/logout.php$1 [L]
+RewriteRule ^forget-password /include/forget-password.php$1 [L]
+RewriteRule ^change-password /include/change-password.php$1 [L]
+RewriteRule ^profile /include/profile.php$1 [L]
+RewriteRule ^giftcode /include/giftcode.php$1 [L]
+RewriteRule ^login-google /include/login-google.php$1 [L]
+RewriteRule ^login-facebook /include/login-facebook.php$1 [L]
+#RECHARGE
+RewriteRule ^card /include/card.php$1 [L]
+RewriteRule ^banks /include/banks.php$1 [L]
+#WEB
+RewriteRule ^web-design /include/web-design.php$1 [L]
+RewriteRule ^category/([a-zA-Z0-9_-]+) /include/category.php?id=$1 [L]
+RewriteRule ^create-web/([a-zA-Z0-9_-]+) /include/create-web.php?id=$1 [L]
+RewriteRule ^web-manage /include/web-manage.php$1 [L]
+#SOURCE
+RewriteRule ^source-code /include/source-code.php$1 [L]
+RewriteRule ^order-code/([a-zA-Z0-9_-]+) /include/order-code.php?id=$1 [L]
+RewriteRule ^extend/([a-zA-Z0-9_-]+) /include/extend.php?id=$1 [L]
+RewriteRule ^source-manage /include/source-manage.php$1 [L]
+#LOGO
+RewriteRule ^logo-design /include/logo-design.php$1 [L]
+RewriteRule ^create-logo/([a-zA-Z0-9_-]+) /include/create-logo.php?id=$1 [L]
+RewriteRule ^logo-manage /include/logo-manage.php$1 [L]
+#HOST
+RewriteRule ^hosting /include/hosting-server.php$1 [L]
+RewriteRule ^order-hosting/([a-zA-Z0-9_-]+) /include/order-hosting.php?id=$1 [L]
+RewriteRule ^hostarea/([a-zA-Z0-9_-]+) /include/hostarea.php?id=$1 [L]
+RewriteRule ^host-manage /include/host-manage.php$1 [L]
+#DOMAIN
+RewriteRule ^pricing-domain /include/pricing-domain.php$1 [L]
+RewriteRule ^paydomain /include/paydomain.php$1 [L]
+RewriteRule ^domain-manage /include/domain-manage.php$1 [L]
+RewriteRule ^cron /include/cron.php$1 [L]
+#AFF
+RewriteRule ^affiliates /include/affiliates.php$1 [L]
+RewriteRule ^withdraw /include/withdraw.php$1 [L]
+#TOOL
+RewriteRule ^upanh /include/upanh.php$1 [L]
+RewriteRule ^view-code /include/view-code.php$1 [L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “alt-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

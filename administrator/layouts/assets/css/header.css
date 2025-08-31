@@ -1,0 +1,62 @@
+          /* Basic styling for sidebar */
+#leftside-menu-container {
+    background-color: #0a2239; /* Background color */
+    width: 240px; /* Width of the sidebar */
+}
+
+.side-nav {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+.side-nav-title {
+    padding: 15px;
+    font-weight: bold;
+    color: #343a40; /* Dark color for the title */
+}
+
+.side-nav-item {
+    position: relative; /* Position relative for menu arrow */
+}
+
+.side-nav-link {
+    display: block;
+    padding: 10px 15px;
+    color: #495057; /* Color of the link text */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+}
+
+.side-nav-link:hover {
+    background-color: #e9ecef; /* Background color on hover */
+    color: #007bff; /* Color of the link text on hover */
+}
+
+.menu-arrow {
+    float: right;
+    transition: transform 0.3s ease; /* Smooth transition for the arrow rotation */
+}
+
+.collapse.show + .menu-arrow {
+    transform: rotate(90deg); /* Rotate arrow when expanded */
+}
+
+.side-nav-second-level {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 20px; /* Indent the sub-menu */
+    margin: 0;
+}
+
+.side-nav-second-level li {
+    padding: 5px 0;
+}
+
+.side-nav-second-level a {
+    color: #6c757d; /* Color of the sub-menu link */
+    text-decoration: none; /* Remove underline */
+}
+
+.side-nav-second-level a:hover {
+    color: #007bff; /* Color of the sub-menu link on hover */
+}

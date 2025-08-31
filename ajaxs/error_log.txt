@@ -1,0 +1,54 @@
+Debug info: Array
+(
+    [server] => 17
+    [url] => https://dichvu.info/api/bot.php
+    [sogiay] => 10
+)
+Debug info: Array
+(
+    [server] => 17
+    [url] => https://dichvu.info/api/bot.php
+    [sogiay] => 10
+)
+Debug info: Array
+(
+    [server] => 17
+    [url] => https://dichvu.info/api/bot.php
+    [sogiay] => 10
+)
+Debug info: Array
+(
+    [server] => 17
+    [url] => https://dichvu.info/api/bot.php
+    [sogiay] => 10
+)
+Debug info: Array
+(
+    [server] => 17
+    [url] => https://dichvu.info/api/bot.php
+    [sogiay] => 10
+)
+Debug info: Array
+(
+    [server] => 17
+    [url] => https://dichvu.info/api/bot.php
+    [sogiay] => 10
+)
+Debug info: Array
+(
+    [server] => 17
+    [url] => https://dichvu.info/api/bot.php
+    [sogiay] => 10
+)
+Debug info: Array
+(
+    [server] => 17
+    [url] => https://dichvu.info/api/bot.php
+    [sogiay] => 10
+)
+Debug info: Array
+(
+    [server] => 17
+    [url] => https://dichvu.info/cron
+    [sogiay] => 10
+)
